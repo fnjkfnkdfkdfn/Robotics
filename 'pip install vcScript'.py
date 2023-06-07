@@ -1,9 +1,8 @@
 'pip install vcScript' 
 'pip install --upgrade vcScript'
-from ast import Import
 
 
-Import ("vcScript")
+import("vcScript")
 
 comp = "getComponent"()
 
